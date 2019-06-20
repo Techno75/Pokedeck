@@ -10,7 +10,7 @@ public class TrainerCard extends Card {
 		this.TrainerType = trainertype;
 		this.TextBox = textbox;
 		this.Rule = rule;
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	public String getTrainerType() {
