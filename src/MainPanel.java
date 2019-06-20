@@ -11,6 +11,7 @@ public class MainPanel extends JFrame{
 	JComboBox<String> secondElementSelect;
 	JTextArea descriptionText;
 	
+	
 	public MainPanel(){
 		JPanel panel = new JPanel(new GridBagLayout());
 		panel.setBorder(BorderFactory.createLineBorder(Color.black));
@@ -28,7 +29,7 @@ public class MainPanel extends JFrame{
 		energyText = new JTextField();
 		descriptionText = new JTextArea();
 		typeSelect = new JComboBox<String>();
-		typeSelect.addItem("Pokémon");
+		typeSelect.addItem("PokÃ©mon");
 		firstElementSelect = new JComboBox<String>();
 		firstElementSelect.addItem("Fire");
 		firstElementSelect.addItem("Water");
@@ -38,7 +39,7 @@ public class MainPanel extends JFrame{
 		secondElementSelect.addItem("Fire");
 		secondElementSelect.addItem("Water");
 		secondElementSelect.addItem("Grass");
-		JButton poke = new JButton("POKÉ");	
+		JButton poke = new JButton("POKÃ‰");	
 		
 		poke.addActionListener(new PokemonAdded(this));
 		
@@ -124,7 +125,7 @@ public class MainPanel extends JFrame{
 		String pokeName = nameText.getText();
 		String pokeLifepoints = lifepointsText.getText();
 		String pokeEnergy = energyText.getText();
-		return ("Nouveau pokémon : ").concat(pokeName).concat(" ").concat(pokeLifepoints).concat(" ").concat(pokeEnergy);
+		return ("Nouveau pokÃ©mon : ").concat(pokeName).concat(" ").concat(pokeLifepoints).concat(" ").concat(pokeEnergy);
 	}
 	
 	public String getName(){
