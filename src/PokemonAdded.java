@@ -6,7 +6,6 @@ public class PokemonAdded implements ActionListener {
 	private MainPanel panel;
 	
 	public PokemonAdded(MainPanel vue) {
-		// TODO Auto-generated constructor stub
 		panel = vue;
 	}
 
