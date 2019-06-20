@@ -10,8 +10,7 @@ public class MainPanel extends JFrame{
 	JComboBox<String> firstElementSelect;
 	JComboBox<String> secondElementSelect;
 	JTextArea descriptionText;
-	
-	
+		
 	public MainPanel(){
 		JPanel panel = new JPanel(new GridBagLayout());
 		panel.setBorder(BorderFactory.createLineBorder(Color.black));
